@@ -130,3 +130,37 @@ person[0]; // Will return undefined
 // You should use arrays when you want the element names to be numbers.
 
 /* ---------- JavaScript new Array() ---------- */
+// JavaScript has a built in array constructor new Array().
+// But you can safely use [] instead.
+// These two different statements both create a new empty array named points:
+const points = new Array();
+const points = [];
+// These two different statements both create a new array containing 6 numbers:
+const points = new Array(40, 100, 1, 5, 25, 10);
+const points = [40, 100, 1, 5, 25, 10];
+// The new keyword can produce some unexpected results:
+// Create an array with three elements:
+const points = new Array(40, 100, 1);
+// Create an array with two elements:
+const points = new Array(40, 100);
+// Create an array with one element ???
+const points = new Array(40); // Array not displayed when printed
+// Create an array with 40 undefined elements:
+const points = new Array(40);
+
+/* ---------- JavaScript new Array() ---------- */
+// A common question is: How do I know if a variable is an array?
+// The problem is that the JavaScript operator typeof returns "object":
+const fruits = ['Banana', 'Orange', 'Apple'];
+typeof fruits; // returns object
+
+// The typeof operator returns object because a JavaScript array is an object.
+
+// Solution 1:
+// To solve this problem ECMAScript 5 defines a new method Array.isArray():
+Array.isArray(fruits); // returns true
+
+// Solution 2:
+// The instanceof operator returns true if an object is created by a given constructor:
+const fruits = ['Banana', 'Orange', 'Apple'];
+fruits instanceof Array; // returns true
