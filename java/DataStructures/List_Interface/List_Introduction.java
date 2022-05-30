@@ -17,7 +17,6 @@ package DataStructures.List_Interface;
         4) Stack
 */
 
-
 /* ------------------------------ Methods of List Interface ------------------------------ */
 /*
     The List interface includes all the methods of the Collection interface. 
