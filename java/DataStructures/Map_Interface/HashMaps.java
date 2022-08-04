@@ -98,5 +98,9 @@ public class HashMaps {
         // 4. Remove HashMap Element: .remove()
         languages.remove("C");
         System.out.println(languages);
+
+        // 5. Check if Key or Value in HashMap
+        System.out.println(languages.containsKey("Java"));
+        System.out.println(languages.containsValue(7));
     }
 }

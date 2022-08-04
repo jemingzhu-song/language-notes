@@ -88,7 +88,7 @@ public class HashSets {
         primeNumbers.add(3);
         primeNumbers.add(5);
         
-        // 2. Intersection
+        // 2. Intersection: retainAll()
         oddNumbers.retainAll(primeNumbers);
         System.out.println(oddNumbers);
 
@@ -102,7 +102,7 @@ public class HashSets {
         daysOff.add("Monday");
         daysOff.add("Thursday");
         
-        // 3. Difference
+        // 3. Difference: .removeAll()
         days.removeAll(daysOff);
         System.out.println(days);
 

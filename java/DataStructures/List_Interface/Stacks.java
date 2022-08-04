@@ -33,6 +33,7 @@ public class Stacks {
         weekdays.push("Thursday");
         weekdays.push("Friday");
         System.out.println(weekdays); // [Monday, Tuesday, Wednesday, Thursday, Friday]
+        
         // 2. Remove an element from the top of the stack: .pop()
         System.out.println(weekdays.pop()); // Friday
         System.out.println(weekdays.pop()); // Thursday

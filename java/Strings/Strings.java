@@ -96,5 +96,39 @@ public class Strings {
         String compare3 = "elephant";
         System.out.println(compare1.equals(compare2));
         System.out.println(compare1.equals(compare3));
+        /*
+            9. Loop through Characters of a String:
+            https://stackoverflow.com/questions/196830/what-is-the-easiest-best-most-correct-way-to-iterate-through-the-characters-of-a
+            // Use a for loop to iterate the string and use charAt() to get each character to examine it. 
+            Since the String is implemented with an array, the charAt() method is a constant time operation.
+        */
+        String s = "...stuff...";
+
+        for (int i = 0; i < s.length(); i++){
+            char c = s.charAt(i);        
+            System.out.println(c);
+        }
+        /*
+            10. Alphabetically compare two strings using:
+                .compareTo()
+            
+            Returns:
+                1) An int value: 0 if the string is equal to the other string.
+                2) < 0 if the string is lexicographically less than the other string
+                3) > 0 if the string is lexicographically greater than the other string 
+                   (more characters)
+        */
+        String a = "a";
+        String b = "b";
+        String c = "c";
+        System.out.println(a.compareTo(b)); // -1
+        System.out.println(b.compareTo(a)); // 1
+        System.out.println(c.compareTo(a)); // 2
+        /* 
+            11. Convert a String to an Integer
+        */
+        int iNumber = Integer.parseInt("212");
+        iNumber = iNumber + 1;
+        System.out.println(iNumber);
     }
 }

@@ -3,6 +3,48 @@ package OOP;
 public class OOPTheory {
 }
 
+/*
+    Notes:
+    1. An object is any entity that has a state and behaviour. e.g. a Bicycle is an object, it has:
+        i) States: idle, first gear, second gear, etc.
+        ii) Behaviours: braking, accelerating, etc.
+    2. A class is a blueprint for the object. Before we create an object, we need to define a class.
+       We can create many objects from the same class.
+*/
+class Bicycle {
+    private int wheelCount;
+    private String brand;
+    private double price;
+
+    public String brake() {
+        return "Bicycle Braking!";
+    }
+
+    public int getWheelCount() {
+        return wheelCount;
+    }
+
+    public void setWheelCount(int wheelCount) {
+        this.wheelCount = wheelCount;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+}
+
 /* ------------------------------ Polymorphism ------------------------------ */
 /*
 
