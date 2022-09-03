@@ -1,0 +1,2 @@
+https://www.programiz.com/javascript - For comprehensive overview
+https://www.w3schools.com/js/default.asp - For more specific methods and functions of data structures (such as String methods, Array methods, etc.)

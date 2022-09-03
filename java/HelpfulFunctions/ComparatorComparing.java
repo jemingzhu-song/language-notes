@@ -15,6 +15,19 @@ public class ComparatorComparing {
         people.add(new Person("Charles", 5));
         people.add(new Person("Zion", 34));
     
+        // Sorting with "Function" defined inside the .sort() parametre
+        // people.sort((Person p1, Person p2) -> {
+        //     if (p1.getName().equals(p2.getName())) {
+        //         if (p1.getAge() > p2.getAge()) {
+        //             return 1;
+        //         } else {
+        //             return -1;
+        //         }
+        //     } else {
+        //         return p1.getName().compareTo(p2.getName());
+        //     }
+        // });
+
         System.out.println(people);
         // Sort names by alphabetical order, then by age (ascending)
         people.sort(Comparator.comparing(Person::getName).thenComparing(Person::getAge));
