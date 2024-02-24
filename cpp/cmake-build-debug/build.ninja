@@ -1,0 +1,661 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: cpp
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/jemingzhu-song/Development/language-notes/cpp/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target cpp
+
+
+#############################################
+# Order-only phony target for cpp
+
+build cmake_object_order_depends_target_cpp: phony || CMakeFiles/cpp.dir
+
+build CMakeFiles/cpp.dir/main.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/main.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir
+
+build CMakeFiles/cpp.dir/Basics/variables.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Basics/variables.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Basics/variables.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Basics
+
+build CMakeFiles/cpp.dir/Basics/iostream_library.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Basics/iostream_library.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Basics/iostream_library.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Basics
+
+build CMakeFiles/cpp.dir/Basics/strings.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Basics/strings.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Basics/strings.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Basics
+
+build CMakeFiles/cpp.dir/DataStructures/arrays.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/arrays.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/arrays.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/Basics/functions.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Basics/functions.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Basics/functions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Basics
+
+build CMakeFiles/cpp.dir/DataStructures/vectors.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/vectors.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/vectors.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/Basics/loops.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Basics/loops.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Basics/loops.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Basics
+
+build CMakeFiles/cpp.dir/ReferencesAndPointers/references.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/ReferencesAndPointers/references.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/ReferencesAndPointers/references.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/ReferencesAndPointers
+
+build CMakeFiles/cpp.dir/Basics/controlflow.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Basics/controlflow.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Basics/controlflow.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Basics
+
+build CMakeFiles/cpp.dir/ReferencesAndPointers/function_variables_pass_by_value_or_reference.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/ReferencesAndPointers/function_variables_pass_by_value_or_reference.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/ReferencesAndPointers/function_variables_pass_by_value_or_reference.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/ReferencesAndPointers
+
+build CMakeFiles/cpp.dir/CPPSpecific/default_arguments.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/default_arguments.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/default_arguments.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific
+
+build CMakeFiles/cpp.dir/CPPSpecific/function_overloading.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/function_overloading.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/function_overloading.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific
+
+build CMakeFiles/cpp.dir/DataStructures/unordered_set.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/unordered_set.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/unordered_set.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/DataStructures/unordered_map.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/unordered_map.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/unordered_map.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/Basics/file_input_output.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Basics/file_input_output.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Basics/file_input_output.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Basics
+
+build CMakeFiles/cpp.dir/DataStructures/maps.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/maps.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/maps.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/DataStructures/sets.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/sets.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/sets.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/DataStructures/stacks.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/stacks.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/stacks.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/DataStructures/queues.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/queues.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/queues.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/DataStructures/tuples.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/DataStructures/tuples.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/DataStructures/tuples.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/DataStructures
+
+build CMakeFiles/cpp.dir/CPPSpecific/std_function_wrapper.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/std_function_wrapper.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/std_function_wrapper.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific
+
+build CMakeFiles/cpp.dir/CPPSpecific/std_bind_functions.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/std_bind_functions.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/std_bind_functions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific
+
+build CMakeFiles/cpp.dir/CPPSpecific/std_optional.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/std_optional.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/std_optional.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific
+
+build CMakeFiles/cpp.dir/ReferencesAndPointers/iterators.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/ReferencesAndPointers/iterators.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/ReferencesAndPointers/iterators.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/ReferencesAndPointers
+
+build CMakeFiles/cpp.dir/Algorithms/accumulate.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Algorithms/accumulate.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Algorithms/accumulate.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Algorithms
+
+build CMakeFiles/cpp.dir/Algorithms/distance.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Algorithms/distance.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Algorithms/distance.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Algorithms
+
+build CMakeFiles/cpp.dir/Algorithms/bound.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Algorithms/bound.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Algorithms/bound.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Algorithms
+
+build CMakeFiles/cpp.dir/Algorithms/transform.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Algorithms/transform.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Algorithms/transform.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Algorithms
+
+build CMakeFiles/cpp.dir/Algorithms/back_inserter.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Algorithms/back_inserter.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Algorithms/back_inserter.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Algorithms
+
+build CMakeFiles/cpp.dir/Algorithms/for_each.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Algorithms/for_each.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Algorithms/for_each.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Algorithms
+
+build CMakeFiles/cpp.dir/Algorithms/lambdas.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Algorithms/lambdas.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Algorithms/lambdas.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Algorithms
+
+build CMakeFiles/cpp.dir/OOP/namespaces.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/namespaces.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/namespaces.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/OOP/constructors.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/constructors.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/constructors.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/OOP/classes.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/classes.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/classes.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/OOP/structs.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/structs.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/structs.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/OOP/destructors.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/destructors.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/destructors.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/CPPSpecific/explicit_constructor.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/explicit_constructor.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/explicit_constructor.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific
+
+build CMakeFiles/cpp.dir/OOP/const_member_functions.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/const_member_functions.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/const_member_functions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/OOP/static_members.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/static_members.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/static_members.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/OOP/synthesised_constructor.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/synthesised_constructor.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/synthesised_constructor.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/OOP/friends.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/friends.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/friends.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP
+
+build CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/operator_overloading.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/OperatorOverloading/operator_overloading.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/operator_overloading.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading
+
+build CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/compound_assignment.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/OperatorOverloading/compound_assignment.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/compound_assignment.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading
+
+build CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/relational_operators.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/OperatorOverloading/relational_operators.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/relational_operators.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading
+
+build CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/subscript_operators.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/OperatorOverloading/subscript_operators.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/subscript_operators.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading
+
+build CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/increment_operators.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/OperatorOverloading/increment_operators.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/increment_operators.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading
+
+build CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/arrow_and_dereferencing_operators.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/OperatorOverloading/arrow_and_dereferencing_operators.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/arrow_and_dereferencing_operators.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading
+
+build CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/type_conversion_operator.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/OperatorOverloading/type_conversion_operator.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/type_conversion_operator.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading
+
+build CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/iterator_invalidation.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/CustomIterators/iterator_invalidation.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/iterator_invalidation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/CustomIterators
+
+build CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/custom_iterators.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/CustomIterators/custom_iterators.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/custom_iterators.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/CustomIterators
+
+build CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/automatic_reverse_iterators.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/CustomIterators/automatic_reverse_iterators.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/automatic_reverse_iterators.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/CustomIterators
+
+build CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/random_access_iterators.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/CustomIterators/random_access_iterators.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/random_access_iterators.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/CustomIterators
+
+build CMakeFiles/cpp.dir/Exceptions/exceptions.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Exceptions/exceptions.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Exceptions/exceptions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Exceptions
+
+build CMakeFiles/cpp.dir/Exceptions/rethrow_exceptions.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Exceptions/rethrow_exceptions.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Exceptions/rethrow_exceptions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Exceptions
+
+build CMakeFiles/cpp.dir/Exceptions/exception_safety_levels.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Exceptions/exception_safety_levels.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Exceptions/exception_safety_levels.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Exceptions
+
+build CMakeFiles/cpp.dir/best_practices.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/best_practices.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/best_practices.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir
+
+build CMakeFiles/cpp.dir/Exceptions/testing_exceptions.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/Exceptions/testing_exceptions.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/Exceptions/testing_exceptions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/Exceptions
+
+build CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/resource_management.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/ResourceManagement/resource_management.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/resource_management.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement
+
+build CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/vector_under_the_hood.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/ResourceManagement/vector_under_the_hood.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/vector_under_the_hood.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement
+
+build CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/rule_of_5.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/ResourceManagement/rule_of_5.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/rule_of_5.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement
+
+build CMakeFiles/cpp.dir/CPPSpecific/lvalue_rvalue.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/lvalue_rvalue.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/lvalue_rvalue.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific
+
+build CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/std_move.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/ResourceManagement/std_move.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/std_move.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement
+
+build CMakeFiles/cpp.dir/CPPSpecific/SmartPointers/smart_pointers.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/SmartPointers/smart_pointers.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/SmartPointers/smart_pointers.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/SmartPointers
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/1_dynamic_polymorphism.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/1_dynamic_polymorphism.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/1_dynamic_polymorphism.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/2_inheritence.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/2_inheritence.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/2_inheritence.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/5_static_vs_dynamic_binding.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/5_static_vs_dynamic_binding.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/5_static_vs_dynamic_binding.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/3_abstract_class.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/3_abstract_class.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/3_abstract_class.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/4_polymorphic_objects.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/4_polymorphic_objects.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/4_polymorphic_objects.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/6_up_casting.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/6_up_casting.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/6_up_casting.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/7_down_casting.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/7_down_casting.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/7_down_casting.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/8_covariants.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/8_covariants.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/8_covariants.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/9_contravariants.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/9_contravariants.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/9_contravariants.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/10_avoid_default_arguments_with_virtual_functions.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/OOP/DynamicPolymorphism/10_avoid_default_arguments_with_virtual_functions.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/10_avoid_default_arguments_with_virtual_functions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/OOP/DynamicPolymorphism
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/1_polymorphism_and_generic_programming.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/1_polymorphism_and_generic_programming.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/1_polymorphism_and_generic_programming.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/2_function_templates.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/2_function_templates.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/2_function_templates.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/3_class_templates.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/3_class_templates.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/3_class_templates.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/4_inclusion_compilation_model.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/4_inclusion_compilation_model.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/4_inclusion_compilation_model.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/5_static_members_with_templates.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/5_static_members_with_templates.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/5_static_members_with_templates.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/6_friends_with_templates.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/6_friends_with_templates.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/6_friends_with_templates.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/7_constexpr.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/7_constexpr.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/7_constexpr.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/8_templates_multiple_types.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/8_templates_multiple_types.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/8_templates_multiple_types.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/9_specialisation.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/9_specialisation.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/9_specialisation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/10_type_traits.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/10_type_traits.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/10_type_traits.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/11_variadic_templates.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/11_variadic_templates.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/11_variadic_templates.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/12_member_templates.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/12_member_templates.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/12_member_templates.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/13_template_template_parameter.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/13_template_template_parameter.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/13_template_template_parameter.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+build CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/14_template_argument_deducation.cpp.o: CXX_COMPILER__cpp_Debug /Users/jemingzhu-song/Development/language-notes/cpp/CPPSpecific/StaticPolymorphismTemplates/14_template_argument_deducation.cpp || cmake_object_order_depends_target_cpp
+  DEP_FILE = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/14_template_argument_deducation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++20
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cpp
+
+
+#############################################
+# Link the executable cpp
+
+build cpp: CXX_EXECUTABLE_LINKER__cpp_Debug CMakeFiles/cpp.dir/main.cpp.o CMakeFiles/cpp.dir/Basics/variables.cpp.o CMakeFiles/cpp.dir/Basics/iostream_library.cpp.o CMakeFiles/cpp.dir/Basics/strings.cpp.o CMakeFiles/cpp.dir/DataStructures/arrays.cpp.o CMakeFiles/cpp.dir/Basics/functions.cpp.o CMakeFiles/cpp.dir/DataStructures/vectors.cpp.o CMakeFiles/cpp.dir/Basics/loops.cpp.o CMakeFiles/cpp.dir/ReferencesAndPointers/references.cpp.o CMakeFiles/cpp.dir/Basics/controlflow.cpp.o CMakeFiles/cpp.dir/ReferencesAndPointers/function_variables_pass_by_value_or_reference.cpp.o CMakeFiles/cpp.dir/CPPSpecific/default_arguments.cpp.o CMakeFiles/cpp.dir/CPPSpecific/function_overloading.cpp.o CMakeFiles/cpp.dir/DataStructures/unordered_set.cpp.o CMakeFiles/cpp.dir/DataStructures/unordered_map.cpp.o CMakeFiles/cpp.dir/Basics/file_input_output.cpp.o CMakeFiles/cpp.dir/DataStructures/maps.cpp.o CMakeFiles/cpp.dir/DataStructures/sets.cpp.o CMakeFiles/cpp.dir/DataStructures/stacks.cpp.o CMakeFiles/cpp.dir/DataStructures/queues.cpp.o CMakeFiles/cpp.dir/DataStructures/tuples.cpp.o CMakeFiles/cpp.dir/CPPSpecific/std_function_wrapper.cpp.o CMakeFiles/cpp.dir/CPPSpecific/std_bind_functions.cpp.o CMakeFiles/cpp.dir/CPPSpecific/std_optional.cpp.o CMakeFiles/cpp.dir/ReferencesAndPointers/iterators.cpp.o CMakeFiles/cpp.dir/Algorithms/accumulate.cpp.o CMakeFiles/cpp.dir/Algorithms/distance.cpp.o CMakeFiles/cpp.dir/Algorithms/bound.cpp.o CMakeFiles/cpp.dir/Algorithms/transform.cpp.o CMakeFiles/cpp.dir/Algorithms/back_inserter.cpp.o CMakeFiles/cpp.dir/Algorithms/for_each.cpp.o CMakeFiles/cpp.dir/Algorithms/lambdas.cpp.o CMakeFiles/cpp.dir/OOP/namespaces.cpp.o CMakeFiles/cpp.dir/OOP/constructors.cpp.o CMakeFiles/cpp.dir/OOP/classes.cpp.o CMakeFiles/cpp.dir/OOP/structs.cpp.o CMakeFiles/cpp.dir/OOP/destructors.cpp.o CMakeFiles/cpp.dir/CPPSpecific/explicit_constructor.cpp.o CMakeFiles/cpp.dir/OOP/const_member_functions.cpp.o CMakeFiles/cpp.dir/OOP/static_members.cpp.o CMakeFiles/cpp.dir/OOP/synthesised_constructor.cpp.o CMakeFiles/cpp.dir/OOP/friends.cpp.o CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/operator_overloading.cpp.o CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/compound_assignment.cpp.o CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/relational_operators.cpp.o CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/subscript_operators.cpp.o CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/increment_operators.cpp.o CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/arrow_and_dereferencing_operators.cpp.o CMakeFiles/cpp.dir/CPPSpecific/OperatorOverloading/type_conversion_operator.cpp.o CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/iterator_invalidation.cpp.o CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/custom_iterators.cpp.o CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/automatic_reverse_iterators.cpp.o CMakeFiles/cpp.dir/CPPSpecific/CustomIterators/random_access_iterators.cpp.o CMakeFiles/cpp.dir/Exceptions/exceptions.cpp.o CMakeFiles/cpp.dir/Exceptions/rethrow_exceptions.cpp.o CMakeFiles/cpp.dir/Exceptions/exception_safety_levels.cpp.o CMakeFiles/cpp.dir/best_practices.cpp.o CMakeFiles/cpp.dir/Exceptions/testing_exceptions.cpp.o CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/resource_management.cpp.o CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/vector_under_the_hood.cpp.o CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/rule_of_5.cpp.o CMakeFiles/cpp.dir/CPPSpecific/lvalue_rvalue.cpp.o CMakeFiles/cpp.dir/CPPSpecific/ResourceManagement/std_move.cpp.o CMakeFiles/cpp.dir/CPPSpecific/SmartPointers/smart_pointers.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/1_dynamic_polymorphism.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/2_inheritence.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/5_static_vs_dynamic_binding.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/3_abstract_class.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/4_polymorphic_objects.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/6_up_casting.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/7_down_casting.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/8_covariants.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/9_contravariants.cpp.o CMakeFiles/cpp.dir/OOP/DynamicPolymorphism/10_avoid_default_arguments_with_virtual_functions.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/1_polymorphism_and_generic_programming.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/2_function_templates.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/3_class_templates.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/4_inclusion_compilation_model.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/5_static_members_with_templates.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/6_friends_with_templates.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/7_constexpr.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/8_templates_multiple_types.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/9_specialisation.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/10_type_traits.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/11_variadic_templates.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/12_member_templates.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/13_template_template_parameter.cpp.o CMakeFiles/cpp.dir/CPPSpecific/StaticPolymorphismTemplates/14_template_argument_deducation.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp
+  TARGET_PDB = cpp.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jemingzhu-song/Development/language-notes/cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jemingzhu-song/Development/language-notes/cpp/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/jemingzhu-song/Development/language-notes/cpp -B/Users/jemingzhu-song/Development/language-notes/cpp/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/jemingzhu-song/Development/language-notes/cpp/cmake-build-debug
+
+build all: phony cpp
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/jemingzhu-song/Development/language-notes/cpp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/jemingzhu-song/Development/language-notes/cpp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

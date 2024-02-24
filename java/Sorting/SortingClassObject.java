@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 
-public class SortingObjects {
+public class SortingClassObject {
     public static void main(String[] args) {
         LinkedList<Person> people = new LinkedList<>();
 
