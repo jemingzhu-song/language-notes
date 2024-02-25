@@ -24,3 +24,15 @@ function greet2(name: String | null | undefined) {
   }
 }
 greet2(null); // This is valid now
+
+/*
+    Non-null Assertion Operator (Postfix !)
+
+    TypeScript also has a special syntax for removing null and undefined from a type 
+    without doing any explicit checking. Writing ! after any expression is effectively a 
+    type assertion that the value isn’t null or undefined:
+*/
+function liveDangerously(x?: number | null) {
+  // No error
+  console.log(x!.toFixed());
+}
