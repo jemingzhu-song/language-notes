@@ -1,4 +1,4 @@
-package Behavioural.Decorator.Components
+package Structural.Decorator.Components
 
 interface VisualComponent {
 

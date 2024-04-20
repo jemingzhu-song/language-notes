@@ -1,6 +1,6 @@
-package Behavioural.Decorator.Decorators
+package Structural.Decorator.Decorators
 
-import Behavioural.Decorator.Components.VisualComponent
+import Structural.Decorator.Components.VisualComponent
 
 /*
     This Decorator adds a Border to the VisualComponent

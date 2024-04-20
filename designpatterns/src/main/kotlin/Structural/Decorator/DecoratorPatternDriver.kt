@@ -1,9 +1,9 @@
-package Behavioural.Decorator
+package Structural.Decorator
 
-import Behavioural.Decorator.Components.ImageView
-import Behavioural.Decorator.Components.TextView
-import Behavioural.Decorator.Decorators.BorderDecorator
-import Behavioural.Decorator.Decorators.TransparencyDecorator
+import Structural.Decorator.Components.ImageView
+import Structural.Decorator.Components.TextView
+import Structural.Decorator.Decorators.BorderDecorator
+import Structural.Decorator.Decorators.TransparencyDecorator
 
 fun main() {
     // Create a "TextView" plain POJO

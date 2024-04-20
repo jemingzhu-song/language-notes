@@ -1,6 +1,6 @@
-package Behavioural.Decorator.Decorators
+package Structural.Decorator.Decorators
 
-import Behavioural.Decorator.Components.VisualComponent
+import Structural.Decorator.Components.VisualComponent
 
 /*
     The "Decorator" is an Abstract Class that maintains a reference/field to the Component.
