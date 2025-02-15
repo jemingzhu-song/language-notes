@@ -71,4 +71,11 @@ fun main() {
     for (index in 0..2) {
         println(names[index])
     }
+
+    // 6. while loop
+    var i: Int = 0
+    while (i < names.size) {
+        println(names[i])
+        i++;
+    }
 }

@@ -52,4 +52,14 @@ fun main() {
     Remember, the "it" keyword refers to each instance of this element.
     */
     printFilteredStrings(strings, { println("$it YAY")})
+
+    /* Trailing Lambdas: https://kotlinlang.org/docs/lambdas.html#passing-trailing-lambdas
+    According to Kotlin convention, if the last parameter of a function is a function,
+    then a lambda expression passed as the corresponding argument can be placed outside the parentheses
+
+    If the lambda is the only argument in that call, the parentheses can be omitted entirely
+    */
+    printFilteredStrings(strings) {
+        println("Trailing Lambda: $it")
+    }
 }

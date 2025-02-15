@@ -64,34 +64,34 @@ fun main() {
     println(people1.containsValue("Adam")) // true
     println(people1.containsValue("Tomato")) // false
 
-    // 3. Get from Map: .get() or []
+    // 4. Get from Map: .get() or []
     println(people1.get(2)) // Zion
     println(people1[3]) // Adam
 
-    // 3. A) Get all Keys: .keys (MutableSet<K>)
+    // 5. Get all Keys: .keys (MutableSet<K>)
     val keys: MutableSet<Int> = people1.keys
     for (key in keys) {
         println(key);
     }
 
-    // 3. B) Get all Values: .values (MutableCollection<V>)
+    // 6. Get all Values: .values (MutableCollection<V>)
     val values: MutableCollection<String> = people1.values
     for (value in values) {
         println(value)
     }
 
-    // 3. C) Get Key, Value Pairs: .entries (MutableSet<MutableMap.MutableEntry<K, V>>)
+    // 7. Get Key, Value Pairs: .entries (MutableSet<MutableMap.MutableEntry<K, V>>)
     val entries: MutableSet<MutableMap.MutableEntry<Int, String>> = people1.entries
     for (entry in entries) {
         println(entry)
     }
 
-    // 4. Edit Map: .set() or []
+    // 8. Edit Map: .set() or []
     people1.set(2, "ZION")
     people1[1] = "KENNY"
     println(people1)
 
-    // 5. Remove from Map: .remove(K) or .remove(K, V)
+    // 9. Remove from Map: .remove(K) or .remove(K, V)
     people1.remove(2)
     println(people1)
     people1.remove(5, "Xav")

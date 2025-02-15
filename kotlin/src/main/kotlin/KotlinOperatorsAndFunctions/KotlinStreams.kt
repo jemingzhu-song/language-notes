@@ -1,4 +1,4 @@
-package HelpfulNotes
+package KotlinOperatorsAndFunctions
 
 /*
     Kotlin also has a Java equivalent .forEach(), .filter() and other functions, which we can chain together
@@ -15,7 +15,7 @@ fun main() {
     var filtered: List<String> = names
                                     .filterNotNull()
                                     .filter { name -> name.contains("e") }
-                                    .map { name: String -> "$name!!!" }
+                                    .map { name -> name + "!!!" }
                                     .toList()
     println(filtered)
 

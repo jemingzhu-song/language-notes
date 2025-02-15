@@ -88,7 +88,7 @@ public class Person(firstName: String, lastName: String) {
     */
 
     /*
-        get(value) {}
+        get() {}
             Must have a "return" statement to return a value that will be the result of this getter.
             The getter will always have the same visibility as the property itself.
 
@@ -148,6 +148,12 @@ public class Person(firstName: String, lastName: String) {
         return "$firstName ($nickNameToPrint) $lastName $age"
     }
 
+    /*
+        Private Class Method
+     */
+    private fun secret(): String {
+        return "Secret Function..."
+    }
 }
 
 /*
