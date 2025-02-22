@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class PipelinesStreams {
+public class StreamsBasics {
     public static void main(String[] args) {
         ArrayList<String> names = new ArrayList<>();
         names.add("Brian");

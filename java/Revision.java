@@ -1,72 +1,47 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.Map.Entry;
+import javax.sound.midi.SysexMessage;
+import java.util.*;
+
+/**
+ * ========== BASICS  ==========
+ * 1. Variables
+ * 2. Functions
+ * 3. Loops
+ * 4. Switch
+ * 5. String Functions
+ *
+ * ========== DATA STRUCTURES ==========
+ * 1. ArrayList
+ *      - Sorting
+ * 2. Stack
+ * 3. Queue (LinkedList)
+ * 4. PriorityQueue
+ * 4. HashMap
+ * 5. Initialising Maps
+ * 6. TreeMap
+ *      - Sorting By Key & Sorting By value
+ * 7. HashSet
+ * 8. TreeSet
+ *
+ * ========== STREAMS ==========
+ * 1. collect(Collectors.toMap())
+ */
 
 public class Revision {
     public static void main(String[] args) {
-        System.out.println("HEllo WOrld");
-        String test1 = "CONST-2501";
+        HashSet<String> set = new HashSet<>();
 
-        boolean retrieved1 = test1.matches("CONST-\\d+");
-        System.out.println(retrieved1);
+        // 1. Add
+        set.add("Banana");
+        set.add("Apple");
+        set.add("Grapes");
+        set.add("Watermelon");
 
-        // TreeMap<Integer, String> people = new TreeMap<>();
+        // 2. Contains
+        System.out.println(set.contains("Banana"));
 
-        // people.put(2, "Adam");
-        // people.put(5, "Brian");
-        // people.put(3, "Zion");
-        // people.put(4, "Xavier");
-        // people.put(1, "Danny");
-        // people.put(6, "Charles");
-        // people.put(7, "Nathan");
-
-        // System.out.println(people);
-
-        // // Get Entries
-        // Set<Entry<Integer, String>> entries = people.entrySet();
-        // // Put into List
-        // ArrayList<Entry<Integer, String>> listEntries = new ArrayList();
-        // listEntries.addAll(entries);
-        // // Sort List
-        // listEntries.sort((Entry<Integer, String> o1, Entry<Integer, String> o2) -> {
-        //     return o1.getValue().compareTo(o2.getValue()) * -1;
-        // });
-        // // Put into LinkedHashMap
-        // LinkedHashMap<Integer, String> sorted = new LinkedHashMap<>();
-        // for (Entry<Integer, String> e : listEntries) {
-        //     sorted.put(e.getKey(), e.getValue());
-        // }
-        // System.out.println(sorted);
-
-        // System.out.println(Person.defaultName);
-        // System.out.println(Person.template());
-
-        // Person p1 = new Person("William", "Chan");
-        // System.out.println(p1.defaultName);
-
+        // 3. Remove
+        set.remove("Banana");
+        set.remove("hwahahah");
+        System.out.println(set);
     }
-}
-
-class Person {
-    private String firstName;
-    private String lastName;
-
-    Person(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-    public static String defaultName = "John Doe";
-    
-
-    public static String template() {
-        return "Firstname Lastname";
-    }
-
 }

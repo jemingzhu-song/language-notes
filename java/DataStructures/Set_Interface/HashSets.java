@@ -64,6 +64,9 @@ public class HashSets {
         numbers.remove(12);
         System.out.println(numbers);
 
+        // 4. Check if Contains
+        numbers.contains(10);
+
         /* -------------------- Set Operations -------------------- */
         HashSet<Integer> evenNumbers = new HashSet<>();
         evenNumbers.add(2);
