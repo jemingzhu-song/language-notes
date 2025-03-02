@@ -24,7 +24,7 @@ public class TransformingMaps {
             .filter(entry -> !entry.getKey().isEmpty())
             .collect(Collectors.toMap(
                 entry -> entry.getKey().get(0),
-                Map.Entry::getValue
+                entry -> entry.getValue()
             ));
 
         System.out.println(result);

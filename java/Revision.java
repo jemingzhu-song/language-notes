@@ -1,5 +1,7 @@
 import javax.sound.midi.SysexMessage;
+import java.sql.Array;
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * ========== BASICS  ==========
@@ -28,20 +30,24 @@ import java.util.*;
 
 public class Revision {
     public static void main(String[] args) {
-        HashSet<String> set = new HashSet<>();
+        Map<Integer, String> names = Map.of(
+            1, "Adam",
+            2, "Kenny",
+            3, "Brian",
+            4, "William",
+            5, "Zion",
+            6, "Ethan",
+            7, "Xavier"
+        );
 
-        // 1. Add
-        set.add("Banana");
-        set.add("Apple");
-        set.add("Grapes");
-        set.add("Watermelon");
+        Map<String, Integer> reversed = names.entrySet()
+            .stream()
+            .filter(e -> e.getValue().contains("e"))
+            .collect(Collectors.toMap(
+                e -> e.getValue() + "!",
+                e -> e.getKey() + 1
+            ));
 
-        // 2. Contains
-        System.out.println(set.contains("Banana"));
-
-        // 3. Remove
-        set.remove("Banana");
-        set.remove("hwahahah");
-        System.out.println(set);
+        System.out.println(reversed);
     }
 }
