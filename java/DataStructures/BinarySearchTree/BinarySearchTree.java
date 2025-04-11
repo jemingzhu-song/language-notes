@@ -118,9 +118,7 @@ public class BinarySearchTree {
         int currentLevel = 0;
 
         while (!queue.isEmpty()) {
-            int length = queue.size();
-
-            for (int i = 0; i < length; i++) {
+            for (int i = 0; i < queue.size(); i++) {
                 TreeNode curr = queue.poll();
                 System.out.println(curr.value);
 
