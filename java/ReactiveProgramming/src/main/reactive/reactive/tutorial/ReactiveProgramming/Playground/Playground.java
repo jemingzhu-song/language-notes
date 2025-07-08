@@ -20,7 +20,7 @@ public class Playground {
                     int delay = new Random().nextInt(10);
                     System.out.println("Delaying: " + name + " by " + delay + "sec");
                     Thread.sleep(delay * 1000);
-                    return Mono.empty();
+                    return Mono.empty();// test
                 })
                 .subscribeOn(Schedulers.newParallel("X-parallel", 5))
                 .thenReturn(name)
